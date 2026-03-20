@@ -81,15 +81,15 @@ p {
   justify-content: center;
   padding: 12px 20px;
   border-radius: 12px;
-  background: var(--ink);
-  color: #fff;
+  background: lime;
+  color: #111;
   text-decoration: none;
   font-weight: 600;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  box-shadow: 0 12px 24px -18px rgba(31, 42, 68, 0.8);
+  box-shadow: 0 12px 24px -18px rgba(0, 255, 0, 0.8);
 }
 
 .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 16px 28px -18px rgba(31, 42, 68, 0.9);
+  box-shadow: 0 16px 28px -18px rgba(0, 255, 0, 0.9);
 }
