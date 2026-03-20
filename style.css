@@ -75,21 +75,37 @@ p {
   box-shadow: 0 0 0 6px rgba(255, 107, 107, 0.15);
 }
 
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 12px 20px;
   border-radius: 12px;
-  background: lime;
-  color: #111;
+  background: var(--ink);
+  color: #fff;
   text-decoration: none;
   font-weight: 600;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 12px 24px -18px rgba(31, 42, 68, 0.8);
+}
+
+.btn-server {
+  background: lime;
+  color: #111;
   box-shadow: 0 12px 24px -18px rgba(0, 255, 0, 0.8);
 }
 
 .btn:hover {
   transform: translateY(-2px);
+  box-shadow: 0 16px 28px -18px rgba(31, 42, 68, 0.9);
+}
+
+.btn-server:hover {
   box-shadow: 0 16px 28px -18px rgba(0, 255, 0, 0.9);
 }
